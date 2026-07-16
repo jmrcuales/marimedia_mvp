@@ -40,7 +40,7 @@ export default function BlogIndexPage() {
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Clear, practical guides on functional medicine, preventive
               health, and the health summits and trends shaping wellness in
-              2026 — written by the Mari Media team.
+              2026, written by the Mari Media team.
             </p>
           </div>
         </section>

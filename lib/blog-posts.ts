@@ -195,7 +195,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   },
   {
     type: "paragraph",
-    text: "Where a symptom-focused visit might ask, \u201cWhat can manage this?\u201d a functional medicine practitioner may also ask, \u201cWhy is this happening, and how might the body's systems be connected?\u201d These approaches can complement one another \u2014 functional medicine adds a broader lens, not a competing one.",
+    text: "Where a symptom-focused visit might ask, \u201cWhat can manage this?\u201d a functional medicine practitioner may also ask, \u201cWhy is this happening, and how might the body's systems be connected?\u201d These approaches can complement one another: functional medicine adds a broader lens, not a competing one.",
   },
   {
     type: "heading",
@@ -205,7 +205,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   },
   {
     type: "paragraph",
-    text: "Functional medicine views the body as an interconnected system. A practitioner may consider how multiple factors relate to one another \u2014 and to your symptoms \u2014 before forming a care plan.",
+    text: "Functional medicine views the body as an interconnected system. A practitioner may consider how multiple factors relate to one another, and to your symptoms, before forming a care plan.",
   },
   {
     type: "cardGrid",
@@ -239,7 +239,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   {
     type: "image",
     src: "/images/blog/functional-medicine/interconnected-health-systems.jpg",
-    alt: "Editorial illustration of six connected health factors — nutrition, sleep, movement, environment, body systems, and daily habits — arranged around a central figure",
+    alt: "Editorial illustration of six connected health factors (nutrition, sleep, movement, environment, body systems, and daily habits) arranged around a central figure",
     width: 733,
     height: 1100,
     caption:
@@ -295,7 +295,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   {
     type: "callout",
     variant: "info",
-    text: "Not necessarily. Testing should be selected based on your symptoms and medical history \u2014 not ordered simply because it's available. Cleveland Clinic notes that many patients can receive functional medicine care without extensive laboratory testing or large supplement regimens.\n\nIt's always appropriate to ask why a test is recommended, how results will affect your plan, and whether insurance covers it.",
+    text: "Not necessarily. Testing should be selected based on your symptoms and medical history, not ordered simply because it's available. Cleveland Clinic notes that many patients can receive functional medicine care without extensive laboratory testing or large supplement regimens.\n\nIt's always appropriate to ask why a test is recommended, how results will affect your plan, and whether insurance covers it.",
   },
   {
     type: "heading",
@@ -305,7 +305,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   },
   {
     type: "paragraph",
-    text: "A personalized plan often focuses on modifiable factors \u2014 areas where meaningful change is possible. Recommendations are tailored to the individual and may evolve over time.",
+    text: "A personalized plan often focuses on modifiable factors: areas where meaningful change is possible. Recommendations are tailored to the individual and may evolve over time.",
   },
   {
     type: "cardGrid",
@@ -339,7 +339,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   },
   {
     type: "paragraph",
-    text: "Functional medicine is commonly used alongside \u2014 not instead of \u2014 conventional medical care. Patients may continue working with their primary care physician or specialists while consulting a functional medicine provider for an additional perspective. Cleveland Clinic describes its functional medicine program as collaborative with conventional care.",
+    text: "Functional medicine is commonly used alongside, not instead of, conventional medical care. Patients may continue working with their primary care physician or specialists while consulting a functional medicine provider for an additional perspective. Cleveland Clinic describes its functional medicine program as collaborative with conventional care.",
   },
   {
     type: "callout",
@@ -355,7 +355,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   },
   {
     type: "paragraph",
-    text: "People often consider this model when dealing with chronic, difficult-to-diagnose, or multi-symptom concerns. The appeal is typically a more comprehensive look at health \u2014 rather than addressing each symptom in isolation.",
+    text: "People often consider this model when dealing with chronic, difficult-to-diagnose, or multi-symptom concerns. The appeal is typically a more comprehensive look at health, rather than addressing each symptom in isolation.",
   },
   {
     type: "cardGrid",
@@ -389,7 +389,7 @@ const functionalMedicineBody: ArticleBlock[] = [
   {
     type: "callout",
     variant: "disclaimer",
-    text: "These are examples of concerns people may bring to a provider \u2014 not conditions functional medicine is proven to cure.",
+    text: "These are examples of concerns people may bring to a provider, not conditions functional medicine is proven to cure.",
   },
   { type: "eyebrow", text: "Evidence & Research" },
   {
@@ -400,13 +400,13 @@ const functionalMedicineBody: ArticleBlock[] = [
   },
   {
     type: "paragraph",
-    text: "Research on the functional medicine model is still developing. A 2019 observational study involving Cleveland Clinic patients found an association between functional medicine care and improved patient-reported quality of life. The researchers noted that prospective studies are needed to confirm these findings \u2014 the study did not prove that functional medicine caused the improvements.",
+    text: "Research on the functional medicine model is still developing. A 2019 observational study involving Cleveland Clinic patients found an association between functional medicine care and improved patient-reported quality of life. The researchers noted that prospective studies are needed to confirm these findings; the study did not prove that functional medicine caused the improvements.",
   },
   {
     type: "callout",
     variant: "evidence",
     title: "Evidence Note",
-    text: "An observed association means two things occurred together \u2014 it does not prove that one caused the other. Causation requires more rigorous study designs, including prospective and controlled research.",
+    text: "An observed association means two things occurred together; it does not prove that one caused the other. Causation requires more rigorous study designs, including prospective and controlled research.",
   },
   {
     type: "statGrid",
@@ -509,7 +509,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Learn how functional medicine approaches health, what to expect during an appointment, what the research says, and how to evaluate a qualified provider.",
     heroIntro:
-      "If you've been managing ongoing symptoms \u2014 or feel your health concerns are being treated one at a time \u2014 you may have heard about functional medicine. This approach looks beyond isolated symptoms to explore how lifestyle, environment, medical history, and body systems may be connected. It's not a replacement for conventional care, but an additional framework some patients choose to explore.",
+      "If you've been managing ongoing symptoms, or feel your health concerns are being treated one at a time, you may have heard about functional medicine. This approach looks beyond isolated symptoms to explore how lifestyle, environment, medical history, and body systems may be connected. It's not a replacement for conventional care, but an additional framework some patients choose to explore.",
     heroCtas: [
       { label: "Explore More Articles", href: "/blog" },
       { label: "Mari Media Events", href: "/#contact" },

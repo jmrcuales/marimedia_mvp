@@ -15,7 +15,7 @@ const pillars = [
     icon: ShieldCheck,
     title: "Why trust us",
     description:
-      "We only promote what we'd stand behind ourselves, and we communicate clearly at every stage of a partnership — no black boxes, no vague reporting.",
+      "We only promote what we'd stand behind ourselves, and we communicate clearly at every stage of a partnership: no black boxes, no vague reporting.",
   },
   {
     icon: TrendingUp,
@@ -48,14 +48,14 @@ export default function About() {
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
             Mari Media is an affiliate marketing media company. We work behind
             the scenes with health summits, SaaS platforms, course creators,
-            and membership programs — running targeted email campaigns that
+            and membership programs, running targeted email campaigns that
             put real products in front of the right audiences, powered by
             GoHighLevel.
           </p>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto mt-4">
             Our approach is built around transparency and long-term
             partnerships rather than one-off promotions. As we grow, we're
-            expanding into broader digital marketing services — but our focus
+            expanding into broader digital marketing services, but our focus
             today is deliberately narrow: strategic affiliate marketing and
             email marketing, done well.
           </p>
