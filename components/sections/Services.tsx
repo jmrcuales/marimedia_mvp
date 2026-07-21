@@ -18,7 +18,7 @@ const services = [
     icon: Mail,
     title: "Email Marketing",
     description:
-      "Using GoHighLevel, we build and run email campaigns that are segmented, sequenced, and written to convert — not just informed. Every send is measured, so we know what's working and adjust quickly when it isn't.",
+      "Using GoHighLevel, we build and run email campaigns that are segmented, sequenced, and written to convert, not just to inform. Every send is measured, so we know what's working and adjust quickly when it isn't.",
     gradient: "from-rose-50 to-rose-100",
     iconBg: "bg-gradient-to-br from-[#F06292] to-[#E91E63]",
   },

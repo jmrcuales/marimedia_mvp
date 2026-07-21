@@ -4,13 +4,15 @@ import { useState, useEffect, useCallback } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import Image from "next/image";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#services", label: "Services" },
-  { href: "#approach", label: "Approach" },
-  { href: "#contact", label: "Contact" },
+  { href: "#about", label: "About", isRoute: false },
+  { href: "#services", label: "Services", isRoute: false },
+  { href: "#approach", label: "Approach", isRoute: false },
+  { href: "/blog", label: "Blog", isRoute: true },
+  { href: "#contact", label: "Contact", isRoute: false },
 ];
 
 export default function Navigation() {
@@ -50,7 +52,11 @@ export default function Navigation() {
   const handleNavClick = useCallback((href: string) => {
     setIsOpen(false);
     const element = document.querySelector(href);
-    element?.scrollIntoView({ behavior: "smooth" });
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = `/${href}`;
+    }
   }, []);
 
   return (
@@ -91,6 +97,18 @@ export default function Navigation() {
 
           <div className="hidden md:flex items-center gap-1">
             {navLinks.map((link) => {
+              if (link.isRoute) {
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="relative px-4 py-2 font-medium transition-colors rounded-lg text-[#222222] hover:text-[#C2185B]"
+                  >
+                    {link.label}
+                  </Link>
+                );
+              }
+
               const isActive = activeSection === link.href.replace("#", "");
               return (
                 <button
@@ -133,6 +151,19 @@ export default function Navigation() {
         {isOpen && (
           <div className="md:hidden bg-white border-t border-gray-200 rounded-b-2xl py-4 space-y-1">
             {navLinks.map((link) => {
+              if (link.isRoute) {
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setIsOpen(false)}
+                    className="block w-full text-left px-6 py-3 transition-colors text-[#222222] hover:text-[#C2185B] hover:bg-gray-50"
+                  >
+                    {link.label}
+                  </Link>
+                );
+              }
+
               const isActive = activeSection === link.href.replace("#", "");
               return (
                 <button

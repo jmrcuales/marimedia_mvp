@@ -21,7 +21,7 @@ const commitments = [
     icon: BarChart3,
     title: "Measurable value",
     description:
-      "Every campaign is judged on real numbers — opens, clicks, and conversions — not assumptions.",
+      "Every campaign is judged on real numbers (opens, clicks, and conversions), not assumptions.",
   },
 ];
 
