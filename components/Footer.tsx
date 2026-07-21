@@ -2,12 +2,14 @@
 
 import { Mail, Share2, ExternalLink } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const quickLinks = [
-  { href: "#about", label: "About" },
-  { href: "#services", label: "Services" },
-  { href: "#approach", label: "Our Approach" },
-  { href: "#contact", label: "Contact" },
+  { href: "#about", label: "About", isRoute: false },
+  { href: "#services", label: "Services", isRoute: false },
+  { href: "#approach", label: "Our Approach", isRoute: false },
+  { href: "/blog", label: "Health Blog", isRoute: true },
+  { href: "#contact", label: "Contact", isRoute: false },
 ];
 
 const currentServices = [
@@ -28,7 +30,12 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const handleNavClick = (href: string) => {
-    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = `/${href}`;
+    }
   };
 
   return (
@@ -60,12 +67,21 @@ export default function Footer() {
             <ul className="space-y-2.5">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <button
-                    onClick={() => handleNavClick(link.href)}
-                    className="text-gray-400 hover:text-[#F06292] transition-colors text-sm text-left"
-                  >
-                    {link.label}
-                  </button>
+                  {link.isRoute ? (
+                    <Link
+                      href={link.href}
+                      className="text-gray-400 hover:text-[#F06292] transition-colors text-sm text-left"
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <button
+                      onClick={() => handleNavClick(link.href)}
+                      className="text-gray-400 hover:text-[#F06292] transition-colors text-sm text-left"
+                    >
+                      {link.label}
+                    </button>
+                  )}
                 </li>
               ))}
             </ul>

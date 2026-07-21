@@ -148,9 +148,9 @@ export default function Contact() {
                 Get In Touch
               </h3>
               <p className="text-gray-600 leading-relaxed mb-8">
-                Whether you're looking to partner with us, learn more about our
-                services, or explore collaboration opportunities, we'd love to
-                hear from you.
+                Send us a note if you're interested in partnering with us,
+                want to learn more about our services, or just have a
+                question. We'd love to hear from you.
               </p>
             </div>
 

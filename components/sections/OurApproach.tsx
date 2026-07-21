@@ -67,8 +67,8 @@ export default function OurApproach() {
             A Connected Process, Not a Checklist
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Every partnership follows the same four-stage journey — each step
-            building directly on the one before it.
+            Every partnership follows the same four stages, each one building
+            directly on the last.
           </p>
         </motion.div>
 

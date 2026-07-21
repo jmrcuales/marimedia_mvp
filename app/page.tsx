@@ -5,6 +5,7 @@ import Services from "@/components/sections/Services";
 import OurApproach from "@/components/sections/OurApproach";
 import WhyMariMedia from "@/components/sections/WhyMariMedia";
 import WhoWeWorkWith from "@/components/sections/WhoWeWorkWith";
+import HealthBlog from "@/components/sections/HealthBlog";
 import OurCommitment from "@/components/sections/OurCommitment";
 import FutureVision from "@/components/sections/FutureVision";
 import Contact from "@/components/sections/Contact";
@@ -24,6 +25,7 @@ export default function Home() {
         <OurApproach />
         <WhyMariMedia />
         <WhoWeWorkWith />
+        <HealthBlog />
         <OurCommitment />
         <FutureVision />
         <Contact />
