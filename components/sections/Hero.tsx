@@ -57,10 +57,10 @@ export default function Hero() {
               Helping Businesses Grow Through Strategic Marketing Partnerships
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0">
-              We help businesses extend their reach through strategic affiliate
-              partnerships and targeted email marketing campaigns — connecting
+              We help businesses extend their reach through strategic
+              affiliate partnerships and targeted email marketing, connecting
               quality products with the right audiences through
-              performance-driven, GoHighLevel-powered campaigns.
+              performance-driven campaigns built on GoHighLevel.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" variant="primary" onClick={handlePartnerClick}>
